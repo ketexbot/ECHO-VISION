@@ -9,7 +9,9 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     fs: {
-      allow: ["./client", "./shared"],
+      // Allow Vite to serve files from project root, client, and shared folders.
+      // index.html lives at the project root so we must include it here.
+      allow: [path.resolve(__dirname, "."), path.resolve(__dirname, "client"), path.resolve(__dirname, "shared")],
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
