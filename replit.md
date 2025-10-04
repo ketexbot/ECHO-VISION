@@ -55,8 +55,29 @@ shared/            # Shared TypeScript types
 - `pnpm typecheck` - Run TypeScript type checking
 
 ## API Endpoints
+
+### Health & Demo
 - `GET /api/ping` - Health check endpoint
 - `GET /api/demo` - Demo endpoint
+
+### User Settings
+- `GET /api/settings/:userId` - Get user settings
+- `POST /api/settings/:userId` - Create user settings
+- `PATCH /api/settings/:userId` - Update user settings
+- `DELETE /api/settings/:userId` - Delete user settings
+
+### Sessions
+- `POST /api/sessions` - Create a new session
+- `GET /api/sessions/:sessionId` - Get session details
+- `GET /api/users/:userId/sessions` - Get all sessions for a user
+- `POST /api/sessions/:sessionId/end` - End a session
+- `POST /api/sessions/:sessionId/detections` - Record proximity detection
+- `GET /api/sessions/:sessionId/detections` - Get session detections
+
+### Analytics
+- `GET /api/analytics/users/:userId` - Get user analytics
+- `GET /api/analytics/global` - Get global statistics
+- `GET /api/analytics/sessions/:sessionId` - Get session statistics
 
 ## Deployment
 Configured for Replit Autoscale deployment:
