@@ -15,7 +15,9 @@ const Hero = () => {
       id="hero"
       className="relative overflow-hidden pt-28 pb-24 sm:pt-32 sm:pb-28"
     >
-      <div className="absolute inset-0 -z-20 bg-[radial-gradient(circle_at_top,#80bbaa1f,transparent_70%)]" />
+      <div className="relative h-full w-full -z-20">
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+      </div>
       <div className="absolute -left-32 top-10 -z-10 h-72 w-72 rounded-full bg-secondary/30 blur-3xl" />
       <div className="absolute right-[-6rem] bottom-[-6rem] -z-10 h-80 w-80 rounded-full bg-accent/25 blur-3xl" />
       <div className="mx-auto grid max-w-6xl items-center gap-16 px-6 lg:grid-cols-[1.1fr_1fr]">
@@ -26,15 +28,16 @@ const Hero = () => {
           className="flex flex-col items-center text-center lg:items-start lg:text-left"
         >
           <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-secondary/40 bg-secondary/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.32em] text-secondary-foreground/80">
-            ECHO VISION • IOS 18
+            IRIS • IOS
           </span>
           <h1 className="text-4xl font-heading font-bold tracking-tight text-balance text-foreground sm:text-5xl lg:text-6xl">
             Navigate the World, Comfortably.
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
-            Echo Vision creates a personal haptic bubble so you can stay aware,
-            grounded, and calm—no matter how crowded the space becomes. Built on
-            Apple\'s LiDAR and haptic engine for a sensory experience that feels
+            I.R.I.S (Interactive Reality Interpretation System) creates a
+            personal haptic bubble so you can stay aware, grounded, and
+            calm—no matter how crowded the space becomes. Built on Apple's
+            LiDAR and haptic engine for a sensory experience that feels
             intuitive and discreet.
           </p>
           <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:items-start">

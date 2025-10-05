@@ -19,8 +19,9 @@ const Challenge = () => {
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
           Navigating busy streets, packed lecture halls, or the subway shouldn\'t
-          come at the cost of your calm. Echo Vision gently safeguards your
-          personal space, reducing sensory overload so you can focus on what
+          come at the cost of your calm. I.R.I.S (Interactive Reality
+          Interpretation System) gently safeguards your personal space,
+          reducing sensory overload so you can focus on what
           matters rather than constantly scanning your surroundings.
         </p>
         <div className="mt-10 h-48 overflow-hidden rounded-3xl border border-secondary/20 bg-gradient-to-br from-secondary/15 via-transparent to-transparent">

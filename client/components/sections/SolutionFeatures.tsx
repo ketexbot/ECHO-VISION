@@ -7,9 +7,9 @@ const features: Array<{
   icon: ReactNode;
 }> = [
   {
-    title: "Create Your Bubble",
+    title: "Know Your Surroundings",
     description:
-      "Use a simple slider to set your personal space radius, from a discreet arm's length to a wider comfortable zone.",
+      "Understand who's and what's nearby and the direction they're moving — know where you're headed and what to expect along your path.",
     icon: (
       <svg viewBox="0 0 64 64" className="h-12 w-12 text-secondary" fill="none">
         <circle cx="32" cy="32" r="26" stroke="currentColor" strokeWidth="2.5" opacity="0.35" />
@@ -83,7 +83,7 @@ const SolutionFeatures = () => {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            How Echo Vision Works
+            How I.R.I.S Works
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
             Thoughtfully designed flows let you choose the boundaries you need,

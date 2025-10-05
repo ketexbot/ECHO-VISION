@@ -15,11 +15,11 @@ const TechnologyShowcase = () => {
             Powered by Precision
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Echo Vision leverages Apple\'s ARKit and LiDAR scanner to build a
-            centimeter-accurate map of your surroundings—all processed on-device
-            to keep every signal private and immediate. Millisecond haptic
-            responses ensure you feel the world around you before it ever feels
-            overwhelming.
+            I.R.I.S (Interactive Reality Interpretation System) leverages Apple\'s
+            ARKit and LiDAR scanner to build a centimeter-accurate map of your
+            surroundings—all processed on-device to keep every signal private and
+            immediate. Millisecond haptic responses ensure you feel the world
+            around you before it ever feels overwhelming.
           </p>
           <ul className="mt-8 space-y-5 text-base text-muted-foreground">
             <li className="flex items-start gap-3">

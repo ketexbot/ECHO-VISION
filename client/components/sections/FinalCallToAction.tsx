@@ -14,13 +14,13 @@ const FinalCallToAction = () => {
         <div className="absolute left-[-10%] top-[-20%] h-56 w-56 rounded-full bg-secondary/40 blur-3xl" />
         <div className="absolute right-[-15%] bottom-[-25%] h-64 w-64 rounded-full bg-accent/35 blur-3xl" />
         <div className="relative">
-          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Experience a New Kind of Calm.
+          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl text-white">
+            Experience a New Kind of Vision.
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-secondary/80">
-            Download Echo Vision to create your own haptic sanctuary. Set your
-            comfort radius, exhale, and move through the world with quiet
-            confidence.
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-white">
+            Download I.R.I.S (Interactive Reality Interpretation System) to create
+            your own haptic sanctuary. Set your comfort radius, exhale, and move
+            through the world with quiet confidence.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a

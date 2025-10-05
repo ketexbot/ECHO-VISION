@@ -31,7 +31,7 @@ const NotFound = () => {
           </h1>
           <p className="mt-6 text-lg text-muted-foreground">
             We couldn\'t locate the page you\'re seeking. Use the navigation to
-            explore Echo Vision or return to the calm of the homepage.
+            explore I.R.I.S or return to the calm of the homepage.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

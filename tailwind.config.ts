@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ["Montserrat", "sans-serif"],
-        body: ["Inter", "sans-serif"],
+        // Prefer Satoshi if available, fall back to existing fonts
+        heading: ["Satoshi", "Montserrat", "sans-serif"],
+        body: ["Satoshi", "Inter", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

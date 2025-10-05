@@ -1,5 +1,30 @@
 /** @import must precede all other statements */
+/* Prefer Satoshi when available, fall back to Inter and Montserrat. */
+/* Satoshi is a variable font often distributed via font vendors; if you
+   host Satoshi yourself or use a provider, replace the @import below with
+   the provider URL. For now we attempt to load a widely mirrored variable
+   Satoshi distribution when available, and otherwise fall back gracefully. */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap");
+
+/* Optional: Local Satoshi if developer has installed it */
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi'), local('Satoshi-Regular');
+  font-display: swap;
+}
+
+/* If you have a hosted Satoshi webfont, add its @font-face declaration here
+   pointing to the hosted WOFF2 files for best performance. Example:
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+*/
 
 @tailwind base;
 @tailwind components;
@@ -99,6 +124,8 @@
 
   body {
     @apply bg-background text-foreground font-body antialiased;
+    /* smooth theme transitions */
+    transition: background-color 250ms ease, color 250ms ease, border-color 250ms ease;
   }
 
   h1,
