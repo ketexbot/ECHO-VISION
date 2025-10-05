@@ -10,7 +10,7 @@ export const config = {
     bodyParser: false,
     externalResolver: true,
   },
-  runtime: "nodejs20.x",
+  runtime: 'nodejs',
 };
 
 export default async function vercelHandler(req: any, res: any) {
