@@ -1,3 +1,5 @@
+process.env.ROLLUP_USE_NODE_JS_FALLBACK = "1";
+
 import { defineConfig } from "vite";
 import path from "path";
 

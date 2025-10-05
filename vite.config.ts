@@ -1,3 +1,5 @@
+process.env.ROLLUP_USE_NODE_JS_FALLBACK = "1";
+
 import { defineConfig, Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
